@@ -1,0 +1,6 @@
+@RepairIT.SalesService_HostAddress = http://localhost:5007
+
+GET {{RepairIT.SalesService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
