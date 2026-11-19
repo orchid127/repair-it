@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "RepairIT.Shared/1.0.0": {
+        "runtime": {
+          "RepairIT.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RepairIT.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

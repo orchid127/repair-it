@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="RepairIT.API/RepairIT.API.csproj" />
   <Project Path="RepairIT.AuthentificationService/RepairIT.AuthentificationService.csproj" />
   <Project Path="RepairIT.CatalogService/RepairIT.CatalogService.csproj" />
   <Project Path="RepairIT.Client/RepairIT.Client.csproj" />
