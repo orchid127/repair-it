@@ -1,0 +1,11 @@
+@RepairIT.UsersService_HostAddress = http://localhost:5051
+
+GET {{RepairIT.UsersService_HostAddress}}/openapi/v1.json
+Accept: application/json
+
+###
+
+GET {{RepairIT.UsersService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
