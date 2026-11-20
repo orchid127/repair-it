@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RepairIT.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5126de2d927c21b145d0e426c6bbe7b8c568953b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+326a395d8a0003d032a9e3a47315e1b2a824736f")]
 [assembly: System.Reflection.AssemblyProductAttribute("RepairIT.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RepairIT.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

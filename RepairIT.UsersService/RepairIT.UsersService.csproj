@@ -7,7 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="11.0.0-rc.3.26522.148" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="11.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\RepairIT.Shared\RepairIT.Shared.csproj" />
+    <ProjectReference Include="..\RepairIT.CatalogService\RepairIT.CatalogService.csproj" />
+  </ItemGroup>
 </Project>
