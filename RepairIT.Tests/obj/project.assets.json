@@ -1239,6 +1239,24 @@
         "runtime": {
           "bin/placeholder/RepairIT.Shared.dll": {}
         }
+      },
+      "RepairIT.UsersService/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v11.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.OpenApi": "11.0.0",
+          "RepairIT.CatalogService": "1.0.0",
+          "RepairIT.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RepairIT.UsersService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RepairIT.UsersService.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -2698,6 +2716,11 @@
       "type": "project",
       "path": "../RepairIT.Shared/RepairIT.Shared.csproj",
       "msbuildProject": "../RepairIT.Shared/RepairIT.Shared.csproj"
+    },
+    "RepairIT.UsersService/1.0.0": {
+      "type": "project",
+      "path": "../RepairIT.UsersService/RepairIT.UsersService.csproj",
+      "msbuildProject": "../RepairIT.UsersService/RepairIT.UsersService.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2707,6 +2730,7 @@
       "Microsoft.NET.Test.Sdk >= 17.14.1",
       "RepairIT.CatalogService >= 1.0.0",
       "RepairIT.Shared >= 1.0.0",
+      "RepairIT.UsersService >= 1.0.0",
       "coverlet.collector >= 6.0.4",
       "xunit >= 2.9.3",
       "xunit.runner.visualstudio >= 3.1.4"
@@ -2744,6 +2768,9 @@
             },
             "/home/habenaria/Documents/school/2026-2027/c-sharp-dot-net/repair-it/RepairIT.Shared/RepairIT.Shared.csproj": {
               "projectPath": "/home/habenaria/Documents/school/2026-2027/c-sharp-dot-net/repair-it/RepairIT.Shared/RepairIT.Shared.csproj"
+            },
+            "/home/habenaria/Documents/school/2026-2027/c-sharp-dot-net/repair-it/RepairIT.UsersService/RepairIT.UsersService.csproj": {
+              "projectPath": "/home/habenaria/Documents/school/2026-2027/c-sharp-dot-net/repair-it/RepairIT.UsersService/RepairIT.UsersService.csproj"
             }
           }
         }

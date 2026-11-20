@@ -3,7 +3,7 @@ namespace RepairIT.UsersService;
 
 public interface IUserService
 {
-    public User CreateUser(string idKeycloak, string firstName, string lastName);
+    public User CreateUser(string firstName, string lastName);
 
     public User? AddRoleToUser(int id, Role role);
 

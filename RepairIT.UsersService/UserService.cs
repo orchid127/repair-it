@@ -11,9 +11,9 @@ public class UserService : IUserService
         _context = context;
     }
 
-    public User CreateUser(string idKeycloak, string firstName, string lastName)
+    public User CreateUser(string firstName, string lastName)
     {
-        User newUser = new User { UserId_Keycloak = idKeycloak, FirstName = firstName, LastName = lastName };
+        User newUser = new User { FirstName = firstName, LastName = lastName, IsActivated = true };
         _context.Users.Add(newUser);
         _context.SaveChanges();
         return newUser;

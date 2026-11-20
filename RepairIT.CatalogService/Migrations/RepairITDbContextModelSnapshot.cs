@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
+using RepairIT.CatalogService;
 
 #nullable disable
 
@@ -13,7 +14,7 @@ partial class RepairITDbContextModelSnapshot : ModelSnapshot
     // If you encounter a merge conflict in the line below, it means you need to
     // discard one of the migration branches and recreate its migrations on top of
     // the other branch. See https://aka.ms/efcore-docs-migrations-conflicts for more info.
-    public override string LastMigrationId => "20261120093727_UpdatingComputer";
+    public override string LastMigrationId => "20261120231353_CreatingUserTable";
 
     protected override void BuildModel(ModelBuilder modelBuilder)
     {
@@ -41,6 +42,33 @@ partial class RepairITDbContextModelSnapshot : ModelSnapshot
                 b.HasKey("Id");
 
                 b.ToTable("Computers");
+            });
+
+        modelBuilder.Entity("RepairIT.Shared.User", b =>
+            {
+                b.Property<int>("Id")
+                    .ValueGeneratedOnAdd()
+                    .HasColumnType("INTEGER");
+
+                b.Property<string>("FirstName")
+                    .HasColumnType("TEXT");
+
+                b.Property<bool>("IsActivated")
+                    .HasColumnType("INTEGER");
+
+                b.Property<string>("LastName")
+                    .HasColumnType("TEXT");
+
+                b.Property<string>("UserId_Keycloak")
+                    .IsRequired()
+                    .HasColumnType("TEXT");
+
+                b.Property<int>("UserRole")
+                    .HasColumnType("INTEGER");
+
+                b.HasKey("Id");
+
+                b.ToTable("Users");
             });
 #pragma warning restore 612, 618
     }

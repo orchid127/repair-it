@@ -10,7 +10,7 @@ public enum Role
 
 public class User
 {
-    public int IdTechnique { get; init; }
+    public int Id { get; init; }
 
     [Required]
     public string UserId_Keycloak { get; set; } = string.Empty;

@@ -26,10 +26,10 @@ public class UserController : ControllerBase
     }
 
     [HttpPost]
-    public IActionResult AddUser(string idKeycloak, string firstName, string lastName)
+    public IActionResult AddUser(string firstName, string lastName)
     {
-        User newUser = _userService.CreateUser(idKeycloak, firstName, lastName);
-        var location = Url.Action(nameof(AddUser), new { id = newUser.IdTechnique }) ?? $"/{newUser.IdTechnique}"; // URL where we can find the newly created computer object
+        User newUser = _userService.CreateUser(firstName, lastName);
+        var location = Url.Action(nameof(AddUser), new { id = newUser.Id }) ?? $"/{newUser.Id}"; // URL where we can find the newly created computer object
         return Created(location, newUser);
     }
 

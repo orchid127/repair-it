@@ -23,6 +23,7 @@
   <ItemGroup>
     <ProjectReference Include="..\RepairIT.Shared\RepairIT.Shared.csproj" />
     <ProjectReference Include="..\RepairIT.CatalogService\RepairIT.CatalogService.csproj" />
+    <ProjectReference Include="..\RepairIT.UsersService\RepairIT.UsersService.csproj" />
   </ItemGroup>
 
 </Project>
