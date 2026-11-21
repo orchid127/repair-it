@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "WordFXGak0E=",
+  "dgSpecHash": "XcYvVfyhl88=",
   "success": true,
   "projectFilePath": "/home/habenaria/Documents/school/2026-2027/c-sharp-dot-net/repair-it/RepairIT.UsersService/RepairIT.UsersService.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "/home/habenaria/.nuget/packages/microsoft.entityframeworkcore.relational/11.0.0/microsoft.entityframeworkcore.relational.11.0.0.nupkg.sha512",
     "/home/habenaria/.nuget/packages/microsoft.entityframeworkcore.sqlite/11.0.0/microsoft.entityframeworkcore.sqlite.11.0.0.nupkg.sha512",
     "/home/habenaria/.nuget/packages/microsoft.entityframeworkcore.sqlite.core/11.0.0/microsoft.entityframeworkcore.sqlite.core.11.0.0.nupkg.sha512",
+    "/home/habenaria/.nuget/packages/microsoft.extensions.apidescription.server/11.0.0/microsoft.extensions.apidescription.server.11.0.0.nupkg.sha512",
     "/home/habenaria/.nuget/packages/microsoft.extensions.caching.memory/11.0.0/microsoft.extensions.caching.memory.11.0.0.nupkg.sha512",
     "/home/habenaria/.nuget/packages/microsoft.extensions.configuration/11.0.0/microsoft.extensions.configuration.11.0.0.nupkg.sha512",
     "/home/habenaria/.nuget/packages/microsoft.extensions.configuration.binder/11.0.0/microsoft.extensions.configuration.binder.11.0.0.nupkg.sha512",
@@ -39,6 +40,10 @@
     "/home/habenaria/.nuget/packages/sqlitepclraw.config.e_sqlite3/3.0.5/sqlitepclraw.config.e_sqlite3.3.0.5.nupkg.sha512",
     "/home/habenaria/.nuget/packages/sqlitepclraw.core/3.0.5/sqlitepclraw.core.3.0.5.nupkg.sha512",
     "/home/habenaria/.nuget/packages/sqlitepclraw.provider.e_sqlite3/3.0.5/sqlitepclraw.provider.e_sqlite3.3.0.5.nupkg.sha512",
+    "/home/habenaria/.nuget/packages/swashbuckle.aspnetcore/11.0.1/swashbuckle.aspnetcore.11.0.1.nupkg.sha512",
+    "/home/habenaria/.nuget/packages/swashbuckle.aspnetcore.swagger/11.0.1/swashbuckle.aspnetcore.swagger.11.0.1.nupkg.sha512",
+    "/home/habenaria/.nuget/packages/swashbuckle.aspnetcore.swaggergen/11.0.1/swashbuckle.aspnetcore.swaggergen.11.0.1.nupkg.sha512",
+    "/home/habenaria/.nuget/packages/swashbuckle.aspnetcore.swaggerui/11.0.1/swashbuckle.aspnetcore.swaggerui.11.0.1.nupkg.sha512",
     "/home/habenaria/.nuget/packages/system.diagnostics.eventlog/11.0.0/system.diagnostics.eventlog.11.0.0.nupkg.sha512"
   ],
   "logs": []
